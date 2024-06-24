@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary : #0367A6;
+  --text : #012840;
+  --bg: #DDEBF9;
+  --extra: #3F9BBF;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+}
