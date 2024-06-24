@@ -1,14 +1,16 @@
-import React from 'react'
+import React from 'react';
+import Search from '../../components/Search';
 
 const Home = () => {
   return (
     <div>
-      <h1 className='text-[50px] text-center '>Home Page</h1>
-      <div className='h-[200vh] '>
-
+      <div className="bg-[--extra] z-40 fixed top-[64px] w-full ">
+        <Search />
       </div>
-    </div>
-  )
-}
 
-export default Home
+      <div className="h-[200vh] "></div>
+    </div>
+  );
+};
+
+export default Home;

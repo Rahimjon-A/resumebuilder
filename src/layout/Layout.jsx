@@ -5,7 +5,7 @@ import Navbar from "../components/Navbar";
 const Layout = () => {
   return (
     <div className="layout">
-      <div className="navbar mb-[50px] ">
+      <div className="navbar mb-[64px] ">
         <Navbar />
       </div>
 

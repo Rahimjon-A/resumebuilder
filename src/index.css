@@ -19,3 +19,7 @@ body {
   background-color: var(--bg);
   color: var(--text);
 }
+
+option {
+  color: white;
+}
