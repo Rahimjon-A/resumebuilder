@@ -18,8 +18,8 @@ const Footer = () => {
               <FaKickstarterK />
             </span>
             KOKITO
-         
         </h1>
+
 
         <div className="flex gap-6 items-center text-xl ">
           <FaInstagram className=" cursor-pointer  duration-200 hover:scale-125 hover:text-[--text] " />

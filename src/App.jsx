@@ -7,6 +7,7 @@ import Intro from "./pages/intro/Intro";
 import Home from "./pages/home/Home";
 import Profile from "./pages/Profile/Profile";
 import Login from "./pages/login/Login";
+import CreateCv from "./pages/createCV/CreateCv";
 
 
 
@@ -24,6 +25,10 @@ const App = () => {
         {
           path: "/home",
           element: <Home/>
+        },
+        {
+          path: "/create",
+          element: <CreateCv/>
         },
         {
           path: "/profile",

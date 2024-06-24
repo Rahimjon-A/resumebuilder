@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const Intro = () => {
   return (
     <>
-      <div className="h-full container px-4 mx-auto lg:px-[100px]  ">
+      <div className="h-full container px-4 mx-auto xl:px-[100px]  ">
         <div class="relative max-w-5xl mx-auto pt-20 sm:pt-24 lg:pt-32">
           <h1 class="text-slate-900 font-extrabold text-4xl sm:text-5xl lg:text-6xl tracking-tight text-center">
             Create perfect resumes for the modern job market
@@ -56,7 +56,7 @@ const Intro = () => {
           </div>
 
           <div className="grow flex-1">
-            <img src="./introMain.avif" alt="" className="w-full h-[500px] hidden  sm:block " />
+            <img src="./introMain.avif" alt="" className="w-full lg:px-[30px] h-[500px] hidden  sm:block " />
             <div className="flex gap-5 relative sm:hidden ">
               <img src="./introImg2.png" alt="" className="w-full h-[200px] " />
               <img src="./introImg1.png" alt="" className="w-full h-[200px] " />
