@@ -3,13 +3,13 @@ import Playground from './Sort';
 import { IoFilterSharp } from 'react-icons/io5';
 import { useState } from 'react';
 import Filter from './Filter';
+import { IoMdClose } from 'react-icons/io';
 
 const Search = () => {
-  const [ open, setOpen] = useState(false);
+  const [open, setOpen] = useState(false);
 
   return (
     <div className="container mx-auto xl:px-[100px] px-4 py-3 flex gap-3 items-center justify-between relative ">
-
       <span className="border flex items-center text-[18px]  w-[300px] px-3 py-1 gap-3 rounded-full bg-[--primary] text-white overflow-hidden ">
         <label htmlFor="search">
           <TbUserSearch />
@@ -25,13 +25,22 @@ const Search = () => {
 
       <span
         onClick={() => setOpen((prev) => !prev)}
-        className="flex bg-[--primary] items-center gap-3 text-white border rounded-full py-1 px-3 cursor-pointer lg:hidden "
+        className="flex bg-[--primary] w-[100px] items-center gap-3 text-white border rounded-full py-1 px-3 cursor-pointer lg:hidden "
       >
-        <span> Filter</span>
-        <IoFilterSharp />
+        {open ? (
+          <>
+            <span>Close</span>
+            <IoMdClose />
+          </>
+        ) : (
+          <>
+            <span> Filter</span>
+            <IoFilterSharp />
+          </>
+        )}
       </span>
 
-      <Filter open={open}/>
+      <Filter open={open} />
 
       <div className="sort text-white items-center gap-5 hidden lg:flex ">
         <div className="flex flex-col gap-1">
