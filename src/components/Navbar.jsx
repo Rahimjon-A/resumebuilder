@@ -37,7 +37,7 @@ const Navbar = () => {
                 </button>
               </Link>
               <div className='flex items-center gap-3'>
-              <span className=' hidden md:block '> Jeck's Wife </span>
+              <span className=' hidden md:block '> Jeck </span>
                 <span>
                   <img
                     src="./user.jpg"

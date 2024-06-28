@@ -12,7 +12,7 @@ const Profile = () => {
             
             <div className="flex  items-center md:items-start lg:sticky mb-[30px] top-[104px] flex-col">
               <img src="./user.jpg" alt="" className="w-[200px] h-[200px] rounded-md mb-[20px] " />
-              <p className=" font-bold text-[24px] ">Rahimjond Abduraximov </p>
+              <p className=" font-bold text-[24px] ">Jeck </p>
             </div>
 
             <div className=" grid justify-center md:justify-start lg:sticky top-[104px]">
@@ -20,7 +20,7 @@ const Profile = () => {
 
               <div className="flex gap-4 text-[22px] ">
                 <p className="font-bold ">Name:</p>
-                <p className="text-[20px] "> Jeck's Wife </p>
+                <p className="text-[20px] "> Jeck </p>
               </div>
               <div className="flex gap-4 text-[22px] ">
                 <p className="font-bold ">Surname:</p>
